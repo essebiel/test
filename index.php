@@ -36,8 +36,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         body {
             margin: 0;
             font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: #FFCA08; 
-            background-image: linear-gradient(rgba(255, 202, 8, 0.8), rgba(255, 202, 8, 0.8)), url("https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=2075&auto=format&fit=crop");
+            background-color: #08c9ff; 
+            background-image: linear-gradient(rgba(8, 218, 255, 0.8), rgba(8, 218, 255, 0.8)), url("https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=2075&auto=format&fit=crop");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         .opcoes button:hover {
             background-color: #f0f0f0;
-            border-color: #FFCA08;
+            border-color: #08ceff;
             transform: translateY(-2px);
         }
 
@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             margin-top: 25px;
             padding: 15px;
             background-color: #fff9e6;
-            border-left: 5px solid #FFCA08;
+            border-left: 5px solid #08a4ff;
             border-radius: 4px;
             color: #444;
         }
